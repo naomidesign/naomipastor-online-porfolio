@@ -1,0 +1,699 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Rokkitt:400,700,900');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+
+
+}
+
+body{
+    font-size: 15px;
+  font-family: "Poppins";
+  color: #2b2b26;
+  line-height: 1.4;
+  font-weight: 400;
+}
+strong{
+	font-weight: 600;
+}
+
+a {
+	color: #60adc7;
+}
+
+.flex {
+	display: flex;
+}
+
+.relative {
+	position: relative;
+}
+
+
+:focus {
+	outline:none;
+}
+
+::-moz-selection {
+	background: #2b2b26;
+    color: #ffffff;
+}
+
+::selection {
+    background: #2b2b26;
+    color: #ffffff;
+}
+
+/*custom styles*/
+
+h1, h2 {
+	font-family: 'Rokkitt', serif;
+	font-size: 30px;
+	line-height: 1.2;
+	color: #2b2b26;
+	font-weight: 400;
+	margin-top: 30px;
+}
+
+h1::-moz-selection, h2::-moz-selection, { /* Code for Firefox */
+    background: #2b2b26;
+    color: #ffffff;
+}
+
+h1::selection, h2::selection   {
+    background: #2b2b26;
+    color: #ffffff;
+}
+
+blockquote {
+	font-size: 15px;
+  font-family: "Poppins";
+  color: #2b2b26;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.breadcrumb {
+	color: #2b2b26;
+	font-size: 12px;
+	margin-bottom: 50px;
+	margin-top: 0;
+
+}
+
+.breadcrumb:last-child {
+	color: #b8ce3a;
+	font-weight: bold;
+}
+
+.breadcrumb:before {
+    content: '\E5CC';
+    color: #2b2b26;
+    vertical-align: top;
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    margin: 0 10px 0 8px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.black {
+	color: #2b2b26;
+}
+
+.btn, .btn-large {
+	background-color: #ffffff;
+	color: #2b2b26;
+	border: solid 3px #2b2b26;
+	font-family: 'Rokkitt', serif;
+	font-size: 25px;
+	text-transform: none;
+	font-weight: 600;
+	transition: all ease 0.5s;
+	line-height: normal;
+	display: inline-flex;
+	align-content: center;
+	align-items: center;
+}
+
+.btn-large i {
+	line-height: 0;
+}
+
+
+
+.btn:hover, .btn-large:hover {
+	background-color: #2b2b26;
+	color: #ffffff;
+	border: solid 3px #ae1c58;
+	font-family: 'Rokkitt', serif;
+	font-size: 25px;
+	text-transform: none;
+	transition: all ease 0.5s;
+}
+
+.btn:hover > .btn-large i {
+		color: #ffffff;
+}
+
+
+/*header*/
+
+header {
+	padding: 50px 0px 20px;
+}
+
+.logo img {
+	max-width: 250px;
+}
+
+nav {
+    color: #2b2b26;
+    background-color: transparent;
+    width: 100%;
+    height: 100px;
+    line-height: 56px;
+    border: none;
+    box-shadow: none;
+    position: relative
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+
+nav ul a {
+	color: #2b2b26;
+	font-family: 'Rokkitt', serif;
+	font-size: 20px;
+}
+
+nav ul {
+	justify-content: flex-end;
+}
+
+nav .active {
+	font-weight: bold;
+}
+
+.rrss-icons {
+	justify-content: flex-end;
+}
+
+
+/*top image
+------------------------------*/
+
+.bg-header {
+	width: 82%;
+	background: url("../img/bg-header.jpg");
+	height: 268px;
+}
+
+.bg-header img {
+	position: relative;
+	top: -28px;
+	left: 10%;
+}
+
+/*intro 
+---------------------------*/
+
+.intro > div {
+	margin-top: 70px;
+}
+
+.intro p {
+  font-size: 15px;
+  font-family: "Poppins";
+  color: #2b2b26;
+  line-height: 1.4;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.intro blockquote {
+	margin:20px 50px;
+	line-height: 1.4;
+}
+
+
+
+
+/*Know-how
+----------------------------*/
+
+.skills p {
+font-size: 20px;
+  font-family: 'Rokkitt', serif;
+  color: #2b2b26;
+  font-weight: 600;
+  line-height: 1;
+}
+
+/* START 
+-----------------------*/
+.skills {
+	margin-top: 100px;
+	display: block;
+}
+
+.skills div:first-child {
+
+}
+
+.start div p::-moz-selection {
+	background: #2b2b26;
+    color: #e91e63;
+}
+
+.start div p::selection {
+    background: #2b2b26;
+    color: #e91e63;
+}
+
+.start-title {
+	text-transform: uppercase;
+	font-size: 25px;
+	margin-top: 5px;
+	font-weight: bold;
+	color: #e91e63;
+	border-top: solid 10px #e91e63;
+	padding: 20px 0px;
+	display: flex;
+	margin: 0 auto;
+	width: 90%;
+	align-self: center;
+	margin-top: 20px;
+}
+
+.start-title strong {
+	display: block;
+	margin: 0 auto;
+}
+
+
+/*ideas*/
+.start div:first-child > img {
+	max-width: 70px;
+}
+
+.start div:first-child p:first-child {
+	width: 90%;
+	text-align: center;
+}
+
+/*estrategia*/
+.start div:nth-child(2) img {
+	max-width: 70px;
+	margin: -20px auto 0px;
+	text-align: center;
+	display: block;
+}
+
+.start div:nth-child(2) p {
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+/*DEVELOPMENT
+------------------------------------------*/
+
+.development div {
+	padding-bottom: 20px;
+}
+
+.development-title {
+	text-transform: uppercase;
+	font-size: 25px;
+	margin-top: 5px;
+	font-weight: bold;
+	color: #60adc7;
+	border-top: solid 10px #60adc7;
+	padding: 20px 0px;
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	align-self: center;
+	margin-top: 20px;
+}
+
+.development-title strong {
+	display: block;
+	margin: 0 auto;
+}
+
+.development div p::-moz-selection {
+	background: #2b2b26;
+    color: #60adc7;
+}
+
+.development div p::selection {
+    background: #2b2b26;
+    color: #60adc7;
+}
+
+
+/*branding*/
+.development div:first-child img:first-child {
+	width: 70px;
+	margin-left: -30px;
+	margin-top: -100px;
+}	
+
+.development div:first-child p:nth-child(2) {
+
+	margin-left: -30px;
+
+}	
+
+
+/*responsive*/
+.development div:first-child img:nth-child(3) {
+	width: 220px;
+	margin-left: 20px;
+}	
+
+.development div:first-child p:nth-child(4) {
+	padding-bottom: 20px;
+}	
+
+/*ilustracion, project management, motion*/
+
+.development div:nth-child(2) {
+	width: 80%;
+	padding-bottom: 30px;
+}
+
+.development div:nth-child(2) img {
+	width: 70px;
+}	
+
+/*ilustracion*/
+.development div:nth-child(2) p:first-child {
+    margin-top: -30px;
+    margin-left: -170px;
+    text-align: left;
+}
+
+.development div:nth-child(2) img:nth-child(2) {
+    margin-top: -30px;
+    margin-left: -110px;
+}
+
+/*motion graphics*/
+.development div:nth-child(2) img:nth-child(3) {
+    margin-top: -40px;
+    margin-left: 0px;
+    display: block;
+}
+
+.development div:nth-child(2) p:nth-child(4) {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: block;
+    width: 80%;
+}
+
+/*project management*/
+.development div:nth-child(2) img:nth-child(5) {
+    margin-top: -75px;
+    margin-left: -115px;
+    display: block;
+    width: 70px;
+}
+
+.development div:nth-child(2) p:nth-child(6) {
+    margin-top: 0px;
+    margin-left: -100px;
+    width: 80%;
+    display: block;
+}
+
+/*blue-circle*/
+
+.blue-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 150px;
+    border: solid 5px #60adc7;
+    text-align: right;
+    position: relative;
+    margin-top: -176px;
+    margin-left: -100px;
+}
+
+.blue-circle span {
+	color: #60adc7;
+}
+
+
+
+/*GROWTH
+-----------------------*/
+
+.growth {
+	margin-top: -50px;
+}
+
+.growth-title {
+	text-transform: uppercase;
+	font-size: 25px;
+	margin-top: 5px;
+	font-weight: bold;
+	color: #b8ce3a;
+	border-top: solid 10px #b8ce3a;
+	padding: 20px 0px;
+	display: flex;
+	width: 100%;
+	align-self: center;
+	margin-top: 20px;
+}
+
+.growth-title strong {
+	display: block;
+	margin: 0 auto;
+}
+
+.growth div p::-moz-selection {
+	background: #2b2b26;
+    color: #b8ce3a;
+}
+
+.growth div p::selection {
+    background: #2b2b26;
+    color: #b8ce3a;
+}
+
+
+/*paid media*/
+.growth div:first-child img:nth-child(2) {
+	width: 135px;
+}
+
+/*off*/
+.growth div:first-child img:nth-child(4) {
+	width: 100px;
+}
+
+/*analitica*/
+.growth div:nth-child(2) img:nth-child(2) {
+	width: 100px;
+}
+
+/*social*/
+.growth div:nth-child(2) img:nth-child(4) {
+	width: 70px;
+}
+
+
+
+
+/*CASE STUDIES
+------------------------------------------*/
+
+.case-studies div:nth-child(2) img {
+	margin-top: 30px;
+	max-width: 500px;
+}
+
+
+.case-studies div:nth-child(2) .portfolio-text {
+	max-width: 50%;
+	position: relative;
+	margin-top: -15%;
+	margin-left: -20%;
+}
+
+
+
+
+/*FOOTER 
+-------------------------*/
+
+footer {
+	background-color: #2b2b26;
+	color: white;
+	font-family: 'Rokkitt', serif;
+	text-align: center;
+	padding: 20px;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
+
+/*ABOUT 
+-------------------------*/
+
+.about h1 {
+	margin-left: -30px;
+}
+
+.about div:first-child :nth-child(2) a {
+	margin-top: 30px;
+}
+
+.tags {
+	margin-left: 30px;
+	margin-top: 50px;
+	width: 85%;
+	z-index: 9;
+}
+
+.about .tags h2 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	z-index: 9;
+    position: relative;
+}
+
+.pink-square-title {
+    width: 77px;
+    height: 10px;
+    background-color: #e91e63;
+    position: relative;
+    top: -12px;
+    left: -10px;
+    z-index: 0;
+}
+
+.blue-square-title {
+	width: 50px;
+    height: 10px;
+    background-color: #60adc7;
+    position: relative;
+    top: -12px;
+    left: 0px;
+    z-index: 0;
+}
+
+.green-square-title {
+	width: 90px;
+    height: 10px;
+    background-color: #b8ce3a;
+    position: relative;
+    top: -12px;
+    left: 25px;
+    z-index: 0;
+}
+
+/*PORTFOLIO 
+------------------------------------------*/
+
+.masonry { 
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 800px;
+  margin-left: -8px; /* Adjustment for the gutter */
+  width: 100%;
+  padding: 30px 0px;
+}
+
+.masonry-brick {
+  margin: 10px;
+  padding: 10px;
+}
+
+.masonry img {
+	margin: 15px;
+}
+
+.bg-gris {
+	  background-color: rgb(237, 237, 237);
+}
+
+.portfolio-text {
+	background-color: rgba(255,255,255,0.8);
+	padding: 15px;
+
+	width: auto;
+}
+
+.portfolio-text h2 {
+	font-size: 25px;
+	line-height: 1;
+	font-weight: bold;
+}
+
+
+/*Surcando*/
+
+.portfolio-text {
+	max-width: 60%;
+	position: relative;
+	margin-top: -30%;
+	margin-left: 40%;
+}
+
+
+
+
+/*PROYECTOS INTERIOR
+---------------------------------------------------*/
+
+.sidebar ul li {
+	display: flex;
+	align-items: center;
+}
+
+.sidebar i {
+	padding-left: 20px;
+}
+
+
+/*Surcando los Bares*/
+

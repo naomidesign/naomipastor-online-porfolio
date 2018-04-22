@@ -1,0 +1,176 @@
+header {
+	padding: 15px 0px;
+}
+
+body{
+    font-size: 17px;
+  font-family: "Poppins";
+  color: #2b2b26;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.logo {
+	margin: 20px auto;
+	text-align: center;
+}
+
+.rrss-icons, nav ul {
+	justify-content: center;
+	align-items: center;
+}
+
+header .row .rrss-icons {
+	padding-bottom: 15px;
+}
+
+.rrss-icons {
+	border-bottom: solid 2px #eee;
+}
+
+/*header*/
+
+.bg-header img {
+    position: relative;
+    top: -24px;
+    left: -7%;
+    width: 115%;
+}
+
+.bg-header {
+	width: 90%;
+    height: 150px;
+}
+
+/*skills*/
+
+.skills {
+    margin-top: 50px;
+}
+
+/*ideas*/
+.start div:first-child > img {
+	max-width: 90px;
+}
+
+.start div:first-child p:first-child {
+	width: 90%;
+	text-align: center;
+}
+
+/*estrategia*/
+.start div:nth-child(2) img {
+	max-width: 90px;
+	margin: -20px auto 0px;
+	text-align: center;
+	display: block;
+}
+
+.start div:nth-child(2) p {
+	text-align: center;
+	margin-top: 5px;
+}
+
+.development div {
+	float: left;
+}
+
+/*branding*/
+.development div:first-child img:first-child {
+	width: 90px;
+	margin-left: 0px;
+	margin-top: 0px;
+}	
+
+.development div:first-child p:nth-child(2) {
+
+	margin-left: 0px;
+
+}	
+
+
+/*responsive*/
+.development div:first-child img:nth-child(3) {
+    width: 90%;
+    margin-left: 30px;
+}	
+
+.development div:first-child p:nth-child(4) {
+	padding-bottom: 20px;
+}	
+
+/*ilustracion, project management, motion*/
+
+.development div:nth-child(2) {
+	width: 80%;
+	padding-bottom: 30px;
+}
+
+.development div:nth-child(2) img {
+	width: 100px;
+}	
+
+/*ilustracion*/
+.development div:nth-child(2) p:first-child {
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: left;
+}
+
+.development div:nth-child(2) img:nth-child(2) {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+/*motion graphics*/
+.development div:nth-child(2) img:nth-child(3) {
+    margin-top: 0px;
+    margin-left: 165px;
+    display: block;
+}
+
+.development div:nth-child(2) p:nth-child(4) {
+    margin-top: 5px;
+    margin-left: 165px;
+    display: block;
+    width: 80%;
+}
+
+/*project management*/
+.development div:nth-child(2) img:nth-child(5) {
+    margin-top: -30px;
+    margin-left: 0px;
+    display: block;
+    width: 100px;
+}
+
+.development div:nth-child(2) p:nth-child(6) {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 80%;
+    display: block;
+}
+
+/*blue-circle*/
+
+.blue-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    border: solid 5px #60adc7;
+    text-align: right;
+    position: relative;
+	margin-top: -303px;
+    margin-left: 3px;
+}
+
+.blue-circle span {
+	color: #60adc7;
+}
+
+/*GROWTH
+-----------------------*/
+
+.growth {
+	margin-top: 0px;
+}

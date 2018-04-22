@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	margin-bottom:0;
+}
+
+h2 {font-size: 23px;}
+
+.rrss {
+    margin-right: 0;
+}
+
+.carousel-inner {
+    width: 500px;
+}
+
+.slider-container {
+    height: auto;
+}
+
+.skills p {
+	font-size: 18px;
+	line-height: 19px;
+}
+
+.grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 220px;
+    max-width: 300px;
+    max-height: 280px;
+    width: 48%;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+}
+
+figure.effect-sadie p {
+
+    padding: 0;
+    width: 100%;
+}
