@@ -33,6 +33,11 @@ por su desarrollo tanto a nivel web, como de diseño, ilustración o incluso, an
           Me mantengo inquieta, curiosa e inconformista, aprendiendo cada día más sobre el diseño y la tecnología para abarcar todo cuanto me sea posible del proceso creativo de un proyecto.
         </blockquote>
 </div>
+
+<div class="col l3 push-l1">
+    <img class="responsive-img" src="img/hello-world.gif" alt="hello world">
+</div>
+
 </div>
     </section>
 
@@ -43,11 +48,11 @@ por su desarrollo tanto a nivel web, como de diseño, ilustración o incluso, an
     
     <div class="row skills">
       <div class="start col l3">
-        <div class="col l6">
+        <div class="col l6 s6">
           <p>Generación de ideas</p>
           <img src="img/ideas.png" alt="icon ideas">
         </div>
-        <div class="col l6">
+        <div class="col l6 s6">
           <img src="img/estrategia.png" alt="icon estrategia">  
           <p>Estrategia</p>
         </div>
@@ -89,7 +94,7 @@ por su desarrollo tanto a nivel web, como de diseño, ilustración o incluso, an
 
 
       <div class="growth col l3">
-        <div class="col l6">
+        <div class="col l6 s6">
           <p>Paid Media</p>
           <img src="img/paid.png" alt="icon paid media">
 
@@ -98,7 +103,7 @@ por su desarrollo tanto a nivel web, como de diseño, ilustración o incluso, an
           
         </div>
 
-        <div class="col l6">
+        <div class="col l6 s6">
           <p>Analítica</p>
          <img src="img/analitica.png" alt="icon analitica">  
           
@@ -127,21 +132,22 @@ por su desarrollo tanto a nivel web, como de diseño, ilustración o incluso, an
 
     <div class="row case-studies">
       <div class="col l6">
-         <img src="img/portfolio/surcando-los-bares.jpg" alt="surcando los bares">
-         <div class="portfolio-text">
+        <a href="surcando-los-bares.php"> <img class="responsive-img" src="img/portfolio/surcando-los-bares.jpg" alt="surcando los bares"></a>
+         <a href="surcando-los-bares.php"><div class="portfolio-text">
             <h2>Surcando los bares</h2>
             <p>Proyecto personal de un blog con temática gastronómica y de viajes.</p>
-        </div>
+        </div></a>
       </div>
 
   
 
       <div class="col l6">
-         <img src="img/serpak.jpg" alt="MotoSerpak">
+        <a href="serpak.php"> <img class="responsive-img" src="img/serpak.jpg" alt="MotoSerpak">
          <div class="portfolio-text">
             <h2>Taller de motos MotoSerpak</h2>
             <p>Diseño web y estrategia de Marketing digital para taller de motos en Madrid.</p>
         </div>
+        </a>
       </div>
 
       <a class="left waves-effect waves-light btn-large" href="portfolio.php">Ver más proyectos <i class="material-icons">keyboard_arrow_right</i></a>

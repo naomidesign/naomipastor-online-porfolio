@@ -33,16 +33,17 @@ include 'header.html';
 <div class="bg-gris">
 <div class="container">
     <div class="projects-gallery masonry ">
-      <div class="col l6 masonry-brick surcando">
-         <img src="img/portfolio/surcando-los-bares.jpg" alt="surcando los bares">
+      <a href="surcando-los-bares.php"><div class="col l6 masonry-brick surcando">
+         <img class="responsive-img" src="img/portfolio/surcando-los-bares.jpg" alt="surcando los bares">
          <div class="portfolio-text">
             <h2>Surcando los bares</h2>
             <p>Proyecto personal de un blog con temática gastronómica y de viajes.</p>
         </div>
+      </a>
       </div>
 
       <div class="col l6 masonry-brick surcando">
-         <img src="img/portfolio/petrarca.jpg" alt="surcando los bares">
+         <img class="responsive-img" src="img/portfolio/petrarca.jpg" alt="surcando los bares">
          <div class="portfolio-text">
             <h2>Petrarca Photography</h2>
             <p>Diseño web en Wordpress.</p>
@@ -50,11 +51,12 @@ include 'header.html';
       </div>
 
       <div class="col l6 masonry-brick surcando">
-         <img src="img/portfolio/motoserpak.jpg" alt="surcando los bares">
+         <a href="serpak.php"><img class="responsive-img" src="img/portfolio/motoserpak.jpg" alt="surcando los bares">
          <div class="portfolio-text">
             <h2>Taller de motos MotoSerpak</h2>
             <p>Diseño web y estrategia de Marketing digital para taller de motos en Madrid.</p>
         </div>
+        </a>
       </div>
 
       

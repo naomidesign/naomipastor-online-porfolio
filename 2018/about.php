@@ -32,7 +32,8 @@ include 'header.html';
             <br>
             <br>
 
-
+            <a class="align-center waves-effect waves-light btn-large" href="cv-naomipastor-2018.pdf" target="_blank">Descargar CV</a>
+            
             <div class="tags">
               <h2>CREATIVIDAD</h2>
               <div class="pink-square-title"></div>
@@ -51,7 +52,7 @@ include 'header.html';
         </div>
         <div class="col l4 push-l1">
             <img class="responsive-img z-depth-2" src="img/naomi-pastor.gif" alt="perfil naomi pastor">
-            <a class="align-center waves-effect waves-light btn-large" href="taller-motos-serpak.php">Descargar CV</a>
+            
         </div>
     </div>
     <div class="row">

@@ -61,7 +61,8 @@ strong{
 }
 
 a {
-	color: #60adc7;
+	color: #2b2b26;
+
 }
 
 .flex {
@@ -70,6 +71,14 @@ a {
 
 .relative {
 	position: relative;
+}
+
+.highlighted {
+	font-weight: 600;
+	font-size: 20px;
+	margin: 30px 20px;
+	border-left: solid 2px #2b2b26;
+	padding-left: 20px;
 }
 
 
@@ -86,6 +95,12 @@ a {
     background: #2b2b26;
     color: #ffffff;
 }
+
+.btn:focus, .btn-large:focus, .btn-small:focus, .btn-floating:focus {
+    background-color: #ae1c58;
+    color: white;
+}
+
 
 /*custom styles*/
 
@@ -261,7 +276,9 @@ nav .active {
 	line-height: 1.4;
 }
 
-
+.intro img {
+	width: 75%;
+}
 
 
 /*Know-how
@@ -353,8 +370,8 @@ font-size: 20px;
 	font-size: 25px;
 	margin-top: 5px;
 	font-weight: bold;
-	color: #60adc7;
-	border-top: solid 10px #60adc7;
+	color: #1f9db5;
+	border-top: solid 10px #1f9db5;
 	padding: 20px 0px;
 	display: flex;
 	width: 80%;
@@ -370,12 +387,12 @@ font-size: 20px;
 
 .development div p::-moz-selection {
 	background: #2b2b26;
-    color: #60adc7;
+    color: #1f9db5;
 }
 
 .development div p::selection {
     background: #2b2b26;
-    color: #60adc7;
+    color: #1f9db5;
 }
 
 
@@ -461,7 +478,7 @@ font-size: 20px;
     width: 120px;
     height: 120px;
     border-radius: 150px;
-    border: solid 5px #60adc7;
+    border: solid 5px #1f9db5;
     text-align: right;
     position: relative;
     margin-top: -176px;
@@ -469,7 +486,7 @@ font-size: 20px;
 }
 
 .blue-circle span {
-	color: #60adc7;
+	color: #1f9db5;
 }
 
 
@@ -562,6 +579,7 @@ footer {
 	font-family: 'Rokkitt', serif;
 	text-align: center;
 	padding: 20px;
+	margin-top: 150px;
 }
 
 .site {
@@ -614,7 +632,7 @@ footer {
 .blue-square-title {
 	width: 50px;
     height: 10px;
-    background-color: #60adc7;
+    background-color: #1f9db5;
     position: relative;
     top: -12px;
     left: 0px;
@@ -685,14 +703,44 @@ footer {
 /*PROYECTOS INTERIOR
 ---------------------------------------------------*/
 
+.interior-proyecto a {
+	text-decoration: underline;
+}
+
+.interior-proyecto h2 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+
+.sidebar {
+	padding-top:100px;
+	border-left: solid 1px #ededed;
+}
+
 .sidebar ul li {
 	display: flex;
 	align-items: center;
+
+}
+
+.sidebar ul li a {
+	color: #b8ce3a;
+
+}
+
+.sidebar ul li a:hover {
+	background-color: #2b2b26;
+	color: #b8ce3a;
+
 }
 
 .sidebar i {
 	padding-left: 20px;
 }
+
+
 
 
 /*Surcando los Bares*/

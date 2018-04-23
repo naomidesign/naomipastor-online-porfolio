@@ -168,9 +168,69 @@ header .row .rrss-icons {
 	color: #60adc7;
 }
 
+
+/*case studies home*/
+
+.case-studies div:nth-child(2) .portfolio-text {
+    margin-left: 2%;
+}
+
+.case-studies div:nth-child(2) img {
+    margin-top: 30px;
+    max-width: 320px;
+}
+
+.case-studies div:nth-child(2) .portfolio-text {
+    max-width: 80%;
+}
+
 /*GROWTH
 -----------------------*/
 
 .growth {
 	margin-top: 0px;
+}
+
+
+
+/*ABOUT*/
+.about h1 {
+    margin-left: 0px;
+}
+
+
+/*PORTFOLIO*/
+
+.masonry {
+    max-height: 100% !important;
+}
+
+
+/*SUPER MIN MOBILES
+-----------------------------------------------------*/
+
+@media (max-width: 400px) {
+  .intro > div {
+    margin-top: 20px;
+    }
+
+    .development div:nth-child(2) img:nth-child(3) {
+    margin-left: 125px;
+    }
+
+    .development div:nth-child(2) p:nth-child(4) {
+    margin-left: 125px;
+    }
+
+    .blue-circle {
+    margin-top: -318px;
+    }
+
+    .growth div:first-child img:nth-child(4) {
+    width: 120px;
+    }
+
+    .btn-large {
+        font-size: 23px;
+    }
 }
