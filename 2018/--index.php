@@ -123,7 +123,7 @@ por su desarrollo tanto a nivel web, como de diseño, ilustración o incluso, an
     </section>
 
 
-    <section class="container">
+    <section class="intro container">
     <div class="row">
         <h2>Case studies</h2>
         <p class="col l6">Proyectos tratados con mucho mimo en los que he podido formar parte de todo el proceso de nacimiento, desarrollo y crecimiento a nivel creativo y web. </p>
