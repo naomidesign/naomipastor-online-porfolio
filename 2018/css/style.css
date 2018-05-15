@@ -281,6 +281,21 @@ nav .active {
 	margin-top: 15%;
 }
 
+/*be water my friend*/
+
+@media (max-width: 600px) {
+  .bg-header {
+    width: 82%;
+    background: url(../img/bg-header.jpg);
+    height: 166px;
+    }
+	
+  .bg-header img {
+    width: 100%;
+	}
+}
+
+
 
 /*Know-how
 ----------------------------*/
