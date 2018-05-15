@@ -4,16 +4,16 @@ include 'header.html';
 
 <nav class="container">            
     <ul class="flex">
-      <li><a class="active" href="about.php">About me</a></li>
-      <li><a href="portfolio.php">Portfolio</a></li>
+      <li><a class="active" href="about">About me</a></li>
+      <li><a href="portfolio">Portfolio</a></li>
       <li><a href="http://www.naomipastor.com/blog">Blog</a></li>
     </ul>
 </nav>
 
 <div class="container">
       <div class="col s12">
-        <a href="index.php" class="breadcrumb">naomipastor.com</a>
-        <a href="about.php" class="breadcrumb">about</a>
+        <a href="/" class="breadcrumb">naomipastor.com</a>
+        <a href="#" class="breadcrumb">about</a>
       </div>
 </div>
 

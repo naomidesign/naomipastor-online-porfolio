@@ -4,8 +4,8 @@ include 'header.html';
 
 <nav class="container">            
     <ul class="flex">
-      <li><a href="about.php">About me</a></li>
-      <li><a class="active" href="portfolio.php">Portfolio</a></li>
+      <li><a href="about">About me</a></li>
+      <li><a class="active" href="portfolio">Portfolio</a></li>
       <li><a href="http://www.naomipastor.com/blog">Blog</a></li>
     </ul>
 </nav>
@@ -33,7 +33,7 @@ include 'header.html';
 <div class="bg-gris">
 <div class="container">
     <div class="projects-gallery masonry ">
-      <a href="surcando-los-bares.php"><div class="col l6 masonry-brick surcando">
+      <a href="portfolio/surcando-los-bares"><div class="col l6 masonry-brick surcando">
          <img class="responsive-img" src="img/portfolio/surcando-los-bares.jpg" alt="surcando los bares">
          <div class="portfolio-text">
             <h2>Surcando los bares</h2>
@@ -51,7 +51,7 @@ include 'header.html';
       </div>
 
       <div class="col l6 masonry-brick surcando">
-         <a href="serpak.php"><img class="responsive-img" src="img/portfolio/motoserpak.jpg" alt="surcando los bares">
+         <a href="serpak"><img class="responsive-img" src="img/portfolio/motoserpak.jpg" alt="surcando los bares">
          <div class="portfolio-text">
             <h2>Taller de motos MotoSerpak</h2>
             <p>Diseño web y estrategia de Marketing digital para taller de motos en Madrid.</p>

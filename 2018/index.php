@@ -4,8 +4,8 @@ include 'header.html';
 
 <nav class="container">            
     <ul class="flex">
-      <li><a href="about.php">About me</a></li>
-      <li><a href="portfolio.php">Portfolio</a></li>
+      <li><a href="about">About me</a></li>
+      <li><a href="portfolio">Portfolio</a></li>
       <li><a href="http://www.naomipastor.com/blog">Blog</a></li>
     </ul>
 </nav>
@@ -132,8 +132,8 @@ por su desarrollo tanto a nivel web, como de diseño, ilustración o incluso, an
 
     <div class="row case-studies">
       <div class="col l6">
-        <a href="surcando-los-bares.php"> <img class="responsive-img" src="img/portfolio/surcando-los-bares.jpg" alt="surcando los bares"></a>
-         <a href="surcando-los-bares.php"><div class="portfolio-text">
+        <a href="surcando-los-bares"> <img class="responsive-img" src="img/portfolio/surcando-los-bares.jpg" alt="surcando los bares"></a>
+         <a href="surcando-los-bares"><div class="portfolio-text">
             <h2>Surcando los bares</h2>
             <p>Proyecto personal de un blog con temática gastronómica y de viajes.</p>
         </div></a>
@@ -142,7 +142,7 @@ por su desarrollo tanto a nivel web, como de diseño, ilustración o incluso, an
   
 
       <div class="col l6">
-        <a href="serpak.php"> <img class="responsive-img" src="img/serpak.jpg" alt="MotoSerpak">
+        <a href="serpak"> <img class="responsive-img" src="img/serpak.jpg" alt="MotoSerpak">
          <div class="portfolio-text">
             <h2>Taller de motos MotoSerpak</h2>
             <p>Diseño web y estrategia de Marketing digital para taller de motos en Madrid.</p>
@@ -150,7 +150,7 @@ por su desarrollo tanto a nivel web, como de diseño, ilustración o incluso, an
         </a>
       </div>
 
-      <a class="left waves-effect waves-light btn-large" href="portfolio.php">Ver más proyectos <i class="material-icons">keyboard_arrow_right</i></a>
+      <a class="left waves-effect waves-light btn-large" href="portfolio">Ver más proyectos <i class="material-icons">keyboard_arrow_right</i></a>
 
 
     </div>

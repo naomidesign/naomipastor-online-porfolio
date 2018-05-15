@@ -4,8 +4,8 @@ include 'header.html';
 
 <nav class="container">            
     <ul class="flex">
-      <li><a href="about.php">About me</a></li>
-      <li><a class="active" href="portfolio.php">Portfolio</a></li>
+      <li><a href="about">About me</a></li>
+      <li><a class="active" href="portfolio">Portfolio</a></li>
       <li><a href="http://www.naomipastor.com/blog">Blog</a></li>
     </ul>
 </nav>
@@ -13,8 +13,8 @@ include 'header.html';
 <div class="container">
       <div class="col s12">
         <a href="index.php" class="breadcrumb">naomipastor.com</a>
-        <a href="portfolio.php" class="breadcrumb">portfolio</a>
-        <a href="portfolio.php" class="breadcrumb">Surcando los Bares</a>
+        <a href="portfolio" class="breadcrumb">portfolio</a>
+        <a href="#" class="breadcrumb">Surcando los Bares</a>
       </div>
 </div>
 
