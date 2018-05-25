@@ -25,7 +25,7 @@ include 'header.html';
     <!--intro-->
     <section class="intro container animatedParent">
     <div class="row">
-    <div class="col l6 push-l1 animated fadeInUpShort">
+    <div class="col l6 push-l1 animated fadeInUpShort animateOnce">
         <h1 class=" ">Hello World!</h1>
         <p class="flow-text">Creativa de nacimiento. Mi objetivo es acompañar a las ideas en todo su proceso vital, desde el nacimiento: a través del branding, concepto creativo, etc. hasta su promoción posterior pasando 
 por su desarrollo tanto a nivel web, como de diseño, ilustración o incluso, animación. </p>
