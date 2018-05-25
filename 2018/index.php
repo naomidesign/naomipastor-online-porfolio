@@ -34,7 +34,7 @@ por su desarrollo tanto a nivel web, como de diseño, ilustración o incluso, an
         </blockquote>
 </div>
 
-<div class="col l3 push-l1 animated fadeInUpShort delay-500">
+<div class="col l3 push-l1 animated fadeInUpShort delay-500 animateOnce">
     <img class="responsive-img" src="img/hello-world.gif" alt="hello world">
 </div>
 
