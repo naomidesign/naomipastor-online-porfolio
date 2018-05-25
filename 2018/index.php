@@ -23,10 +23,10 @@ include 'header.html';
 
 
     <!--intro-->
-    <section class="intro container">
+    <section class="intro container animatedParent">
     <div class="row">
-    <div class="col l6 push-l1">
-        <h1>Hello World!</h1>
+    <div class="col l6 push-l1 animated fadeInUpShort">
+        <h1 class=" ">Hello World!</h1>
         <p class="flow-text">Creativa de nacimiento. Mi objetivo es acompañar a las ideas en todo su proceso vital, desde el nacimiento: a través del branding, concepto creativo, etc. hasta su promoción posterior pasando 
 por su desarrollo tanto a nivel web, como de diseño, ilustración o incluso, animación. </p>
         <blockquote>
@@ -34,7 +34,7 @@ por su desarrollo tanto a nivel web, como de diseño, ilustración o incluso, an
         </blockquote>
 </div>
 
-<div class="col l3 push-l1">
+<div class="col l3 push-l1 animated fadeInUpShort delay-500">
     <img class="responsive-img" src="img/hello-world.gif" alt="hello world">
 </div>
 
@@ -43,11 +43,12 @@ por su desarrollo tanto a nivel web, como de diseño, ilustración o incluso, an
 
 
     <!-- mi know-how -->
-    <section class="container">
-      <h1>Know How</h1>
+    <section class="container animatedParent">
+      <h1 class="animated fadeInUpShort">Know How</h1>
     
     <div class="row skills">
-      <div class="start col l3">
+
+      <div class="start col l3 animated fadeInLeftShort">
         <div class="col l6 s6">
           <p>Generación de ideas</p>
           <img src="img/ideas.png" alt="icon ideas">
@@ -56,13 +57,13 @@ por su desarrollo tanto a nivel web, como de diseño, ilustración o incluso, an
           <img src="img/estrategia.png" alt="icon estrategia">  
           <p>Estrategia</p>
         </div>
-        <div class="start-title">
+        <div class="start-title animated fadeInLeftShort">
           <strong>START</strong>
         </div>
       </div>
 
 
-      <div class="development col l6">
+      <div class="development col l6 animated fadeInLeftShort delay-500">
         
         <div class="col l9">
           <img src="img/branding.png" alt="icon ideas">
@@ -72,7 +73,7 @@ por su desarrollo tanto a nivel web, como de diseño, ilustración o incluso, an
         </div>
 
 
-        <div class="col l3">
+        <div class="col l3 ">
           <p>Ilustración</p>
           <img src="img/drawing.png" alt="icon ilustración">  
           
@@ -86,14 +87,14 @@ por su desarrollo tanto a nivel web, como de diseño, ilustración o incluso, an
           
         </div>
 
-        <div class="development-title">
+        <div class="development-title animated fadeInLeftShort">
           <strong>DEVELOPMENT</strong>
         </div>
       </div>
 
 
 
-      <div class="growth col l3">
+      <div class="growth col l3 animated fadeInLeftShort delay-1000">
         <div class="col l6 s6">
           <p>Paid Media</p>
           <img src="img/paid.png" alt="icon paid media">
@@ -113,7 +114,7 @@ por su desarrollo tanto a nivel web, como de diseño, ilustración o incluso, an
           
         </div>
 
-        <div class="growth-title">
+        <div class="growth-title animated fadeInLeftShort">
           <strong>GROWTH</strong>
         </div>
       </div>
